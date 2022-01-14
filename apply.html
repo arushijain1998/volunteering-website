@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Shreya, Arushi">
+	<title>Apply</title>
+    <link rel="stylesheet" type="text/css" href="apply.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script type="text/javascript" src="apply.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="container-fluid" id="about" class="about-section">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form>
+                <div id="contact-form" class="form-container" data-form-container>
+                <div class="row">
+                    <div class="form-title">
+                        <h2 style="color: #00B2B2">Apply for Opportunity:</h2>
+                    </div>
+                </div>
+                <br>
+                <div class="input-container">
+                    <div class="row" style="color: #FFFFFF">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter your Name here" class="form-control">        
+                    </div>
+                    <br>
+                    <div class="row" style="color: #FFFFFF">
+                        <label for="emailid">Email ID:</label> 
+                        <input type="text" id="emailid" placeholder="Enter your Email ID here" class="form-control">        
+                    </div>
+                    <br>
+                    <div class="row" style="color: #FFFFFF">
+                        <label for="otitle">Opportunity Applied For:</label> 
+                        <input type="text" id="otitle" placeholder="Enter Title here" class="form-control">
+                    </div>
+                    <br>
+                    <div class="row" style="color: #FFFFFF">
+                        <label for="odesc">Why do you want to apply?</label>
+                        <textarea type="textarea" data-min-length="10" placeholder="Describe here" id="odesc" class="md-textarea form-control" rows="3"></textarea>
+                    </div>
+                    <br>
+                    <div class="row" style="color: #FFFFFF">
+                        <label for="number">Number of Hours per Day:</label>
+                        <input type="text" id="number" class="form-control" placeholder="Enter here">
+                    </div>
+                    <br>
+                    <div class="row" style="color: #FFFFFF">
+                        <label for="">Any Previous Experience?</label>
+                        <textarea type="textarea" data-min-length="10" placeholder="Describe here" id="previous" class="md-textarea form-control" rows="3"></textarea>
+                    </div>
+                    <br>
+                    <div class="row submit-row">
+                       <input type="button" id="creation" value="Submit" onclick="SaveN()" class="btn btn-info"></input>
+                    </div>
+                </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+    
+        

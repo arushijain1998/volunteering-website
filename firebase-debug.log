@@ -1,0 +1,25 @@
+[debug] [2019-03-17T06:15:20.307Z] ----------------------------------------------------------------------
+[debug] [2019-03-17T06:15:20.309Z] Command:       C:\Users\SHREYA~1\Desktop\Webdev\Project\firebase-cli.exe C:\Users\Shreya Ghosh\.cache\firebase\cli\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2019-03-17T06:15:20.310Z] CLI Version:   6.5.0
+[debug] [2019-03-17T06:15:20.310Z] Platform:      win32
+[debug] [2019-03-17T06:15:20.310Z] Node Version:  v10.4.1
+[debug] [2019-03-17T06:15:20.311Z] Time:          Sun Mar 17 2019 11:45:20 GMT+0530 (India Standard Time)
+[debug] [2019-03-17T06:15:20.311Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-17T06:15:20.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-17T06:15:20.321Z] > authorizing via signed-in user
+[debug] [2019-03-17T06:15:20.321Z] [iam] checking project tfindia-bdfde for permissions ["firebase.projects.get"]
+[debug] [2019-03-17T06:15:20.323Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tfindia-bdfde:testIamPermissions  
+
+[debug] [2019-03-17T06:15:21.993Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-17T06:15:21.995Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tfindia-bdfde  
+ 
+[debug] [2019-03-17T06:15:23.622Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Shreya Ghosh\Desktop\Webdev\Project'...
+[info] 
+[debug] [2019-03-17T06:15:23.636Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1063356558550/clients/_:getWebAppConfig  
+ 
+[debug] [2019-03-17T06:15:24.236Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
